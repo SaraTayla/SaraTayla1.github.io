@@ -1,0 +1,86 @@
+body{
+	background-image:radial-gradient(white, yellow, forestgreen); 
+	font-family:arial;
+}
+
+.bg{
+	text-align:center;
+}
+
+.bg.one{
+	background-image:radial-gradient(yellow, forestgreen, yellow);
+	
+}
+
+.bg.two{
+	background-image: radial-gradient(yellow, forestgreen, yellow);
+	text-shadow:0px 0px 10px crimson;
+}
+
+.bg.three{
+	background-image:radial-gradient(yellow, forestgreen, yellow);
+	
+}
+
+.bg.four{
+	display:none;
+	text-shadow: 0px 0px 10px crimson;
+}
+
+.mid{
+	color: lightpink ;
+}
+
+.mid.one{
+	transform: rotate(180deg);
+	
+}	
+
+.mid.two{
+	transform:skewX(-10deg);	
+
+}
+
+.mid.three{
+	
+}
+
+.mid.four{
+	transform:skewX(10deg);
+
+}
+
+.text{
+
+}
+
+.text.one{
+	font-size:30px;
+}
+
+.text.two{
+	font-size:110px;
+}
+
+.text.three{
+	font-size:170px;
+}
+
+.text.four{
+	font-size:230px;
+}
+
+/*homepage button*/
+.homepage {
+	width: 5%;
+	position: fixed;
+	left: 10px;
+	bottom:10px;
+}
+
+.homepage img {
+	width: 100%;
+}
+
+
+

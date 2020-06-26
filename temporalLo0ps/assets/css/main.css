@@ -1,0 +1,222 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+	background-color:lime;
+	display: flex;
+  	
+
+}
+
+a {
+	color:blue;
+}
+
+/*title*/
+.title {
+	font-family: times;
+	font-style: italic;
+	color: blue;
+	font-size: 55pt;
+	margin-left: 10pt;
+	position: fixed;
+	text-shadow: 0px 0px 6px blue;
+}
+
+/*widths*/
+.w1of1 {
+	width:100%;
+}
+
+.w1of2 {
+	width:50%;
+}
+
+.w1of4 {
+	width:25%;
+}
+
+.w2of4 {
+	width:50%;
+}
+
+.w3of4 {
+	width:75%;
+}
+
+.w4of4 {
+	width:100%;
+}
+
+.w1of3 {
+	width:33.33%;
+}
+
+.w2of3 {
+	width:66.66%;
+}
+
+.w3of3 {
+	width:100%;
+}
+
+.w1of6 {
+	width:16.665%;
+}
+
+.w2of6 {
+	width:33.33%;
+}
+ 
+.w3of6 {
+	width:50%;
+}
+
+.w4of6 {
+	width:66.665%;
+}
+
+.w5of6 {
+	width:83.33%;
+}
+
+.w6of6 {
+	width:100%;
+}
+
+/*skyscrapper*/
+
+.fullgreen {
+	display: block;
+	width:80%;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top:35px;
+	z-index:10;
+	text-align: center;
+	transition: 2s;
+}
+
+.fullgreen  img {
+	width:100%;
+}
+
+.fullgreen:hover {
+	transform: scale(1.5);
+	transition: 2s;
+
+}
+
+/*menu*/
+
+.menu {
+	top: 75px;
+	right: 50px;
+	width: 8%;
+	cursor:pointer;
+	z-index:11;
+}
+
+.menu img {
+	width:100%;
+}
+
+.menu.show {
+	display:none;
+}
+
+.close {
+	position: fixed;
+	top: 75px;
+	right: 50px;
+	width: 8%;
+	cursor:pointer;
+	z-index:11;
+	display:none;
+}
+
+.close img {
+	width: 100%;
+}
+
+.close.show {
+	display:block;
+	width:5%;
+	top:20px;
+	right:20px;
+}
+
+.essay {
+	width: 45%;
+	height: 100vh;
+	background-color:lime;
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	overflow: scroll;
+	margin-right:-45%;
+	transition: 1s;
+	z-index:10;
+
+}
+
+.essay.slide {
+	margin-right:0;
+	transition:1s;
+
+}
+
+.essay h1 {
+	font-size: 54px;
+	text-align: center;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:50px;
+	color:blue;
+	font-family: times;
+	font-style: italic;
+	text-shadow: 0px 0px 5px blue;
+}
+
+.essay p {
+	padding:20px;
+	font-size: 20px;
+	font-kerning:normal;
+	color: blue;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+/*homepage button*/
+.homepage {
+	width: 5%;
+	position: fixed;
+	left: 10px;
+	bottom:10px;
+	z-index:11;
+}
+
+.homepage img {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
